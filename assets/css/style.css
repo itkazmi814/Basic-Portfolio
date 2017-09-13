@@ -19,21 +19,29 @@ footer{
 	margin-top: 500px;
 }
 
-img {
+.imgImran {
 	float:left;
+	margin: 0px 20px 20px 0px;
+}
 
+p {
+	display: inline;
 }
 
 section{
-	width: 610px;
+	width: 650px;
 	clear: both;
 	float: left;
 	background-color: ffffff;
 }
 
 aside{
-	width: 230px;
+	width: 270px;
 	float:right;
+}
+
+article{
+	padding: 20px;
 }
 
 .divHeader{
@@ -66,18 +74,20 @@ aside{
 	color: #4aaaa5; /*teal*/
 	font-family: 'Georgia', Times, Times New Roman, serif; 
 	font-weight: bold;
-	padding-bottom: 20px;
+	padding: 20px 20px 20px 0px;
 	font-size: 30px;
-	border-width: 20px
-	border-color: red;
+	border-color: #dddddd;
+	border-bottom-width: 2px;
 	border-style: solid;
+	width: 570px;
+	margin-left: 20px;
 }
 .content{	
 	background-color: #ffffff;
 	border-color: #dddddd;
 	border-style: solid;
 	border-width: 1px;
-	padding:20px;
+	padding:px;
 	margin-top: 40px;
 }
 
