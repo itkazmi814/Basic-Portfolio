@@ -19,29 +19,17 @@ footer{
 	margin-top: 500px;
 }
 
-.imgImran {
-	float:left;
-	margin: 0px 20px 20px 0px;
-}
-
 p {
 	display: inline;
 }
 
-section{
-	width: 650px;
-	clear: both;
-	float: left;
-	background-color: ffffff;
-}
-
-aside{
-	width: 270px;
-	float:right;
-}
-
 article{
 	padding: 20px;
+}
+
+.imgImran {
+	float:left;
+	margin: 0px 20px 20px 0px;
 }
 
 .divHeader{
@@ -70,24 +58,47 @@ article{
 	float:right;
 }
 
-.heading{
+.mainHeading{
 	color: #4aaaa5; /*teal*/
 	font-family: 'Georgia', Times, Times New Roman, serif; 
 	font-weight: bold;
-	padding: 20px 20px 20px 0px;
 	font-size: 30px;
 	border-color: #dddddd;
 	border-bottom-width: 2px;
 	border-style: solid;
 	width: 570px;
+	padding: 20px 20px 20px 0px;
 	margin-left: 20px;
 }
+
+.sidebarHeading{
+	color: #4aaaa5; /*teal*/
+	font-family: 'Georgia', Times, Times New Roman, serif; 
+	font-weight: bold;
+	font-size: 20px;
+	border-color: #dddddd;
+	border-bottom-width: 2px;
+	border-style: solid;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 20px 20px 20px 0px;
+}
+
 .content{	
 	background-color: #ffffff;
 	border-color: #dddddd;
 	border-style: solid;
 	border-width: 1px;
-	padding:px;
 	margin-top: 40px;
 }
 
+.mainContent{
+	width: 650px;
+	clear: both;
+	float: left;
+}
+
+.sideContent{
+	width: 270px;
+	float:right;
+}
