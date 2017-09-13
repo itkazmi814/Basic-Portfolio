@@ -10,25 +10,29 @@
 </head>
 
 <body>
-	<div class="divHeader"> <!-- This div is used to set the overall width of the contents -->
 	<header>	
-		
+		<div class="containsTop">
 		<h1 class="topName">Imran Kazmi</h1>
 	
 		<h5 class="navigation"><a href="contact.html">Contact</a></h5>
 		<h5 class="navigation"><a href="portfolio.html">Portfolio</a></h5>
 		<h5 class="navigation"><a href="index.html">About</a></h5>
-		
+		</div>
 	</header>
-		
 	
+	<div class="wrapper"> 
+	<!-- This is part of the sticky footer -->
+
+	<div class="divHeader"> 
+	<!-- This div is used to set the overall width of the contents -->
+		
 	<section  class="content mainContent"> 
-		<!-- Box Encompassing Main Content -->
+	<!-- Box Encompassing Main Content -->
 		
 		<h2 class="mainHeading">About Me</h2> 
 			<article>
 				<!-- Box encompassing page-specific content -->
-				<img class="imgImran" src="assets/images/ImranHeadshotPhoto.jpg" alt="Photo of Imran failed to appear" width="123.9" height="220.5">
+				<img class="aboutPhoto" src="assets/images/ImranHeadshotPhoto.jpg" alt="Photo of Imran failed to appear" width="123.9" height="220.5">
 
 				<span> This is text about Imran.This is text about Imran.This is text about Imran.This is text about Imran.This is text about Imran.This is text about Imran.This is text about Imran.This is text about Imran.
 				</span>
@@ -36,30 +40,35 @@
 				<br>
 				<span>
 				2nd paragraph start This is text about Imran.This is text about Imran.This is text about Imran.This is text about Imran.This is text about Imran.This is text about Imran.This is text about Imran.</span>
-			</article>
-	</section>
+			</article> <!-- End of page-specific content -->
+	</section> <!-- End of Main Context box -->
 
 	<aside  class="content sideContent">
 		<h3 class="sidebarHeading">Connect with Me</h3>
 		
 		<article>
 
-		<a href="https://github.com/itkazmi814" target="_blank"><img alt="icon" src="assets/images/githublogo.png" width="50" height="50"></a>
+		<a class="socialMediaIcon"href="https://github.com/itkazmi814" target="_blank"><img alt="icon" src="assets/images/githublogo.png" width="33%"></a>
 
-		<a href="https://www.linkedin.com/in/imran-kazmi-19a8385a/" target="_blank"><img alt="icon" src="assets/images/linkedinlogo.png" width="50" height="50"></a>
+		<a href="https://www.linkedin.com/in/imran-kazmi-19a8385a/" target="_blank"><img alt="icon" src="assets/images/linkedinlogo.png" width="33%"></a>
 
-		<a href="https://stackoverflow.com/users/8508107/itkazmi814" target="_blank"><img alt="icon" src="assets/images/stackoverflowlogo.png" width="50" height="50"></a>
-
-		<a href="https://www.instagram.com/sk_kazhmere/" target="_blank"><img alt="icon" src="assets/images/instagramlogo.png" width="50" height="50"></a>
+		<a href="https://stackoverflow.com/users/8508107/itkazmi814" target="_blank"><img alt="icon" src="assets/images/stackoverflowlogo.png" width="33%"></a>
+	
+		<a href="https://www.instagram.com/sk_kazhmere/" target="_blank"><img alt="icon" src="assets/images/instagramlogo.png" width="33%"></a>
 
 		</article>
 
 	</aside>	
 			
 	</div> <!-- End of div which sets width 960px -->
+
+
+
+	</div> <!-- End of sticky footer wrapper class -->
+	<div class="push"></div> <!-- Part of sticky footer -->
 </body>
 
-<footer>
+<footer class="footer">
 	&copy; Copyright 2017 Imran Kazmi
 </footer>
 

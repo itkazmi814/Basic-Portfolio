@@ -9,52 +9,82 @@
 </head>
 
 <body>
-	<header>
-		<h1>Imran Kazmi</h1>
+	<header>	
+		<div class="containsTop">
+		<h1 class="topName">Imran Kazmi</h1>
 	
-		<nav>
-			<h5>About</h5>
-			<h5>Portfolio</h5>
-			<h5>Contact</h5>
-			<hr>
-		</nav>
-		<!--Make this a class to get these to be in line with h1 above on same row-->
+		<h5 class="navigation"><a href="contact.html">Contact</a></h5>
+		<h5 class="navigation"><a href="portfolio.html">Portfolio</a></h5>
+		<h5 class="navigation"><a href="index.html">About</a></h5>
+		</div>
 	</header>
 
-	<section>
-		<h1>Contact</h1> 
+	<div class="wrapper"> 
+	<!-- This is part of the sticky footer -->
+
+	<div class="divHeader"> 
+	<!-- This div is used to set the overall width of the contents -->
 		
-		<form>
-			Name:<br>
-			<input type="text" name="fullname" placeholder="John Doe"><br>
+	<section  class="content mainContent"> 
+	<!-- Box Encompassing Main Content -->
 
-			Email:<br>
-			<input type="text" email="emailaddress" placeholder="example@gmail.com"><br>
+		<h2 class="mainHeading">Contact</h2> 
+			<article>
+			<!-- Box containing page-specific content -->
 
-			Message:<br>
-			<input type="text" message="sentmessage"><br>
-			
-			<button type="button">Submit</button>
-		</form>
-		
+				<form>
+					<div class="formLine">
+						Name:<br>
+						<input class="smallFormTextArea" type="text" name="fullname" placeholder="John Doe"><br>
+					</div>
 
+					<div class="formLine">
+						Email:<br>
+						<input class="smallFormTextArea" type="text" email="emailaddress" placeholder="example@gmail.com"><br>
+					</div>
 
-	</section>
+					<div class="formLine">
+						Message:<br>
+						<textarea class="bigFormTextArea" type="text" message="sentmessage"></textarea><br>
+					</div>
+
+					<button class="submitButton" type="submit">Submit</button>
+				</form>
+
+			</article> 
+			<!-- End of page-specific content -->
+	</section> 
+	<!-- End of Main Context box -->
 	
-	<aside>
-		<h3>Connect with Me</h3>
-		<hr>
-		<a href="https://github.com/itkazmi814" target="_blank"><img border=0, alt="icon" src="assets/images/githublogo.png" width="50" height="50"></a>
+	<aside  class="content sideContent">
+		<h3 class="sidebarHeading">Connect with Me</h3>
+		
+		<article> <!-- Sidebar icons -->
 
-		<a href="https://www.linkedin.com/in/imran-kazmi-19a8385a/" target="_blank"><img border=0, alt="icon" src="assets/images/linkedinlogo.png" width="50" height="50"></a>
+			<a class="socialMediaIcon"href="https://github.com/itkazmi814" target="_blank"><img alt="icon" src="assets/images/githublogo.png" height="80" width="80"></a>
 
-		<a href="https://stackoverflow.com/users/8508107/itkazmi814" target="_blank"><img border=0, alt="icon" src="assets/images/stackoverflowlogo.png" width="50" height="50"></a>
+			<a href="https://www.linkedin.com/in/imran-kazmi-19a8385a/" target="_blank"><img alt="icon" src="assets/images/linkedinlogo.png" height="80" width="80"></a>
 
-		<a href="https://www.instagram.com/sk_kazhmere/" target="_blank"><img border=0, alt="icon" src="assets/images/instagramlogo.png" width="50" height="50"></a>
+			<a href="https://stackoverflow.com/users/8508107/itkazmi814" target="_blank"><img alt="icon" src="assets/images/stackoverflowlogo.png" height="80" width="80"></a>
+		
+			<a href="https://www.instagram.com/sk_kazhmere/" target="_blank"><img alt="icon" src="assets/images/instagramlogo.png" height="80" width="80"></a>
+
+		</article> <!-- Sidebar icons -->
+
 	</aside>	
-			<!-- Probably make this a class since it repeats on each page -->
+
+	</div> <!-- End of div which sets width 960px -->
+
+	</div> <!-- End of sticky footer wrapper class -->
+	
+	<div class="push"></div> <!-- Part of sticky footer -->
+
 </body>
-<footer>
+
+<footer class="footer">
 	&copy; Copyright 2017 Imran Kazmi
 </footer>
+
+
+
 </html>
