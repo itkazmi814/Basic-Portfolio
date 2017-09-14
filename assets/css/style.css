@@ -70,12 +70,20 @@ article{
 
 }
 
-.navigation a{
+.navigation {
+	padding: 0px 10px 0px 10px;
+	text-decoration: none;
+	color: #b4c5d2;	
+}
+
+.navBar{
+	float:right;
 	padding: 10px;
-	padding-top:25px;
-	padding-bottom: 20px;
+	padding-top: 27px;
+	padding-bottom: 25px;
 	float:right;
 	text-decoration: none;
+	color: #b4c5d2;	
 }
 
 .mainHeading{
@@ -176,13 +184,13 @@ Need to figure out how to get images to edit in css*/
 .imagePositionLeft{
 	position: relative;
 	float: left;
-	padding: 10px 10px 10px 0px;
+	padding: 10px 10px 30px 0px;
 }
 
 .imagePositionRight{
 	position: relative;
 	float: right;
-	padding: 10px 10px 10px 0px;
+	padding: 10px 10px 30px 0px;
 }
 
 .imageTitle{
