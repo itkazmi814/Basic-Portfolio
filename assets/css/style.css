@@ -75,6 +75,9 @@ article{
 	text-decoration: none;
 	color: #b4c5d2;	
 }
+.navigation:hover{
+	color: #4aaaa5;
+}
 
 .navBar{
 	float:right;
