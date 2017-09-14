@@ -22,6 +22,7 @@ header{
 
 article{
 	padding: 30px;
+	/*max-width: 60px;*/
 }
 
 .footer{
@@ -104,8 +105,16 @@ article{
 }
 
 .socialMediaIcon{
-	width: 45%;
+	/*width: 33%; */
+	/*this is what should be used to distribute the social media icons*/
+	float left;
 }
+
+.iconContainer{
+	width: 270px;
+}
+/*The side bar icons are not properly distributed
+Need to figure out how to get images to edit in css*/
 
 .content{	
 	background-color: #ffffff;
@@ -164,39 +173,6 @@ article{
 	height: 30px;
 }
 
-.photoOdd{
-	
-	/*float: left;*/
-	/*width: 47.5%;*/
-	/*position: absolute;*/
-	/*clear:both;*/
-}
-
-.photoEven{
-/*	padding: 10px 0px 10px 10px;
-	float: right;*/
-	
-	/*clear: both;*/
-	/*position: absolute;*/
-}
-
-.imageTitleLeft{
-	background-color: #4aaaa5;
-	z-index:1;
-	position: absolute;	
-	bottom: 60px;
-	width:260px;
-	text-align: center;
-}
-
-.imageTitleRight{
-	background-color: #4aaaa5;
-	z-index:1;
-	position: absolute;	
-	bottom: 60px;
-	width: 260px;
-	text-align: center;
-}
 .imagePositionLeft{
 	position: relative;
 	float: left;
@@ -209,3 +185,45 @@ article{
 	padding: 10px 10px 10px 0px;
 }
 
+.imageTitle{
+	background-color: #4aaaa5;
+	z-index: 1;
+	position: absolute;	
+	bottom: 40px;
+	width: 260px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px;
+	height: 30px;
+	padding: 5px;
+	padding-top: 30px;
+	margin-top: 300px;
+	white-space: nowrap; 
+}
+
+.overlay{
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  background-color: #4aaaa5;
+  overflow: hidden;
+  width: 260px;
+  height: 0;
+  transition: .15s ease;
+  margin-right: 10px;
+}
+
+.imagePositionLeft:hover .overlay{
+	height: 30%;
+}
+
+.imagePositionRight:hover .overlay{
+	height: 30%;
+}
+
+.overlayedImage{
+  display: block;
+  /*width: 100%;*/
+  height: auto;
+}
